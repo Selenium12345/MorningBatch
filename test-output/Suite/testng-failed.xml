@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="testng.EmpListTest">
+        <methods>
+          <include name="appLogin"/>
+          <include name="appLogout"/>
+          <include name="appLaunch"/>
+          <include name="appClose"/>
+        </methods>
+      </class> <!-- testng.EmpListTest -->
+      <class name="testng.AdminLoginTest">
+        <methods>
+          <include name="appLogin"/>
+        </methods>
+      </class> <!-- testng.AdminLoginTest -->
+      <class name="testng.BeforeTestAferTest">
+        <methods>
+          <include name="appLaunch"/>
+          <include name="appLogout"/>
+        </methods>
+      </class> <!-- testng.BeforeTestAferTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,17 @@
+
+<suite name="Suite">
+  <test name="Test">
+  <groups>
+  <run>
+  <exclude name="Smoke"/>
+  <include name="Regression"/>
+  </run>
+  </groups>
+    <classes>
+      
+      <class name="testng.TestNgGroup1"/>
+      <class name="testng.TestNgGroup2"/>
+      
+    </classes>
+</test>
+</suite>

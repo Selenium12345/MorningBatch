@@ -1,0 +1,10 @@
+
+<suite name="OHRM">
+  <test name="Smoke">
+    <classes>
+            <class name="testng.AddEmployee"/>
+       <class name="testng.EmpListTest"/>
+       
+    </classes>
+  </test> 
+</suite> 
