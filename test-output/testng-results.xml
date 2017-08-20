@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="OHRM" duration-ms="19414" started-at="2017-07-07T03:02:25Z" finished-at="2017-07-07T03:02:45Z">
+  <suite name="OHRM" duration-ms="19804" started-at="2017-08-20T07:18:23Z" finished-at="2017-08-20T07:18:43Z">
     <groups>
     </groups>
-    <test name="Smoke" duration-ms="19414" started-at="2017-07-07T03:02:25Z" finished-at="2017-07-07T03:02:45Z">
+    <test name="Smoke" duration-ms="19804" started-at="2017-08-20T07:18:23Z" finished-at="2017-08-20T07:18:43Z">
       <class name="testng.AddEmployee">
-        <test-method status="PASS" signature="appLaunch()[pri:0, instance:testng.AddEmployee@18e8568]" name="appLaunch" is-config="true" duration-ms="23392" started-at="2017-07-07T08:32:02Z" finished-at="2017-07-07T08:32:25Z">
+        <test-method status="PASS" signature="appLaunch()[pri:0, instance:testng.AddEmployee@18e8568]" name="appLaunch" is-config="true" duration-ms="20636" started-at="2017-08-20T12:48:02Z" finished-at="2017-08-20T12:48:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- appLaunch -->
-        <test-method status="PASS" signature="appLogin()[pri:0, instance:testng.AddEmployee@18e8568]" name="appLogin" is-config="true" duration-ms="3017" started-at="2017-07-07T08:32:25Z" finished-at="2017-07-07T08:32:28Z">
+        <test-method status="PASS" signature="appLogin()[pri:0, instance:testng.AddEmployee@18e8568]" name="appLogin" is-config="true" duration-ms="3098" started-at="2017-08-20T12:48:23Z" finished-at="2017-08-20T12:48:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- appLogin -->
-        <test-method status="PASS" signature="addEmp()[pri:0, instance:testng.AddEmployee@18e8568]" name="addEmp" duration-ms="8624" started-at="2017-07-07T08:32:28Z" finished-at="2017-07-07T08:32:37Z">
+        <test-method status="PASS" signature="addEmp()[pri:0, instance:testng.AddEmployee@18e8568]" name="addEmp" duration-ms="9236" started-at="2017-08-20T12:48:26Z" finished-at="2017-08-20T12:48:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addEmp -->
-        <test-method status="PASS" signature="appLogout()[pri:0, instance:testng.AddEmployee@18e8568]" name="appLogout" is-config="true" duration-ms="3238" started-at="2017-07-07T08:32:41Z" finished-at="2017-07-07T08:32:45Z">
+        <test-method status="PASS" signature="appLogout()[pri:0, instance:testng.AddEmployee@18e8568]" name="appLogout" is-config="true" duration-ms="3273" started-at="2017-08-20T12:48:39Z" finished-at="2017-08-20T12:48:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- appLogout -->
-        <test-method status="FAIL" signature="appClose()[pri:0, instance:testng.AddEmployee@18e8568]" name="appClose" is-config="true" duration-ms="0" started-at="2017-07-07T08:32:45Z" finished-at="2017-07-07T08:32:45Z">
+        <test-method status="FAIL" signature="appClose()[pri:0, instance:testng.AddEmployee@18e8568]" name="appClose" is-config="true" duration-ms="0" started-at="2017-08-20T12:48:43Z" finished-at="2017-08-20T12:48:43Z">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[Process refused to die after 10 seconds, and couldn't taskkill it: Unable to find executable for: taskkill]]>
@@ -74,7 +74,7 @@ Caused by: java.lang.NullPointerException: Unable to find executable for: taskki
         </test-method> <!-- appClose -->
       </class> <!-- testng.AddEmployee -->
       <class name="testng.EmpListTest">
-        <test-method status="PASS" signature="empList()[pri:0, instance:testng.EmpListTest@33e5ccce]" name="empList" duration-ms="4495" started-at="2017-07-07T08:32:37Z" finished-at="2017-07-07T08:32:41Z">
+        <test-method status="PASS" signature="empList()[pri:0, instance:testng.EmpListTest@33e5ccce]" name="empList" duration-ms="4169" started-at="2017-08-20T12:48:35Z" finished-at="2017-08-20T12:48:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- empList -->

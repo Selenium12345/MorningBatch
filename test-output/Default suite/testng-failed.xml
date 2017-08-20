@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testng.FirstTestNg">
+      <class name="testng.SampleTestNg">
         <methods>
-          <include name="startPage"/>
-          <include name="appLogin"/>
-          <include name="appLogout"/>
+          <include name="appLaunch"/>
         </methods>
-      </class> <!-- testng.FirstTestNg -->
+      </class> <!-- testng.SampleTestNg -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -26,7 +26,7 @@ public class OrangeHRM
 		driver.findElement(By.id("txtPassword")).sendKeys("admin");
 		driver.findElement(By.id("btnLogin")).click();
 	}
-	
+		
 @AfterTest
 public void appLogout() throws InterruptedException
 {

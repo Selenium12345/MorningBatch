@@ -3,8 +3,8 @@
   <test name="Test">
   <groups>
   <run>
-  <exclude name="Smoke"/>
-  <include name="Regression"/>
+ 
+  <include name="Smoke"/>
   </run>
   </groups>
     <classes>

@@ -1,27 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]">
-  <test name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="testng.EmpListTest">
-        <methods>
-          <include name="appLogin"/>
-          <include name="appLogout"/>
-          <include name="appLaunch"/>
-          <include name="appClose"/>
-        </methods>
-      </class> <!-- testng.EmpListTest -->
-      <class name="testng.AdminLoginTest">
-        <methods>
-          <include name="appLogin"/>
-        </methods>
-      </class> <!-- testng.AdminLoginTest -->
-      <class name="testng.BeforeTestAferTest">
+      <class name="testng.SampleTestNg">
         <methods>
           <include name="appLaunch"/>
-          <include name="appLogout"/>
         </methods>
-      </class> <!-- testng.BeforeTestAferTest -->
+      </class> <!-- testng.SampleTestNg -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
